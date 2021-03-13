@@ -155,15 +155,6 @@ body {
     position: relative;
 }
 
-/*.imagemaim {
-    position: relative;
-}
-
-.products__button-cart {
-    position: absolute;
-*/    
-}
-
 .fetured__product:hover .product__wrapper-overlay::before {
     content: '';
     width: 360px;
