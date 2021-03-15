@@ -1,0 +1,44 @@
+.brand {
+  display: flex;
+  margin: 0 0 63px;
+  min-width: 1138px;
+
+  &__img-wrapper {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(113, 103, 105, 0.08);
+  }
+
+  &__title {
+    @include font(48px, 58px, 900, normal);
+    text-transform: uppercase;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 100%;
+      background-color: #f16d7f;
+      left: -25px;
+    }
+  }
+
+  &__title-wrapper {
+    padding: 0 0 0 91px;
+    flex-grow: 1;
+    background-color: #f1e4e6;
+    display: flex;
+    align-items: center;
+  }
+
+  &__subtitle {
+    display: block;
+    @include font(37px, 44px, 700);
+  }
+
+  &__subtitle-pink {
+    color: #f16d7f;
+  }
+}
