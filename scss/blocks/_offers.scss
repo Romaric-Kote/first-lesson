@@ -1,29 +1,33 @@
-.offers__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+.offers {
+  .offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.offers__item {
-  width: 360px;
-  min-height: 260px;
-  margin: 0 0 30px;
-}
-.offers__item--woman {
-  background-image: url(../img/forwoman.png);
-}
+  .offers__item {
+    width: 360px;
+    min-height: 260px;
+    margin: 0 0 30px;
+    @include flex-center();
 
-.offers__item--man {
-  background-image: url(../img/forman.png);
-}
+    &--woman {
+      background-image: url(../img/forwoman.png);
+    }
 
-.offers__item--kids {
-  background-image: url(../img/forkids.png);
-}
+    &--man {
+      background-image: url(../img/forman.png);
+    }
 
-.offers__item--accesories {
-  background-image: url(../img/accesories.jpg);
-  width: 100%;
-  min-height: 180px;
-  margin: 0;
+    &--kids {
+      background-image: url(../img/forkids.png);
+    }
+
+    &--accesories {
+      background-image: url(../img/accesories.jpg);
+      width: 100%;
+      min-height: 180px;
+      margin: 0;
+    }
+  }
 }

@@ -1,0 +1,105 @@
+.fetured {
+  .fetured__items {
+    text-align: center;
+    padding-top: 97px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+  }
+
+  .fetured__items-text {
+    text-align: center;
+    padding: 6px 0 48px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+  }
+
+  .fetured__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .fetured__product {
+    width: 360px;
+    height: 420px;
+    padding-bottom: 192px;
+    background: #f8f8f8;
+    margin-bottom: 30px;
+  }
+
+  .fetured__wrapper-overlay {
+    position: relative;
+  }
+
+  .fetured__button-cart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 138px;
+    height: 43px;
+    background: rgba(58, 56, 56, 0.86);
+    border: 1px solid #f8f8f8;
+    color: #f8f8f8;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .fetured__product:hover .fetured__button-cart {
+    display: block;
+  }
+
+  .fetured__product:hover .fetured__wrapper-overlay::before {
+    content: "";
+    width: 360px;
+    min-height: 420px;
+    background: rgba(58, 56, 56, 0.86);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .fetured__product-name {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding: 25px 193px 13px 18px;
+  }
+
+  .fetured__product-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+    padding: 1px 29px 30px 17px;
+  }
+
+  .fetured__product-price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    padding-left: 15px;
+  }
+  .fetured__overlook {
+    display: flex;
+    padding: 14px 38px 13px 38px;
+    width: 217px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+    border: 1px solid #f26376;
+    box-sizing: border-box;
+    margin: 48px auto 96px;
+    text-decoration: none;
+  }
+
+  .fetured__overlook:hover {
+    background-color: #f16d7f;
+    color: #f8f8f8;
+  }
+}
