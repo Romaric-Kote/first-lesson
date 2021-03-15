@@ -1,0 +1,30 @@
+.advantages {
+  background: #222224;
+  width: 100%;
+
+  .advantages__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 341px;
+  }
+
+  .advantages__items-header {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fbfbfb;
+    margin: 28px 0 16px;
+    font-weight: 400;
+  }
+
+  .advantages__items-text {
+    line-height: 17px;
+    color: #fbfbfb;
+    font-weight: 300;
+  }
+
+  .advantages__list {
+    width: 360px;
+    text-align: center;
+  }
+}
